@@ -5,16 +5,14 @@ function rot13(str) {
   console.log(input);
   
   let output = "";
-  
-  
+    
   let alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
   // A >> N
   // B >> O
   
   let alpha13 = "NOPQRSTUVWXYZABCDEFGHIJKLM"
-  
-  
+    
   for(let i = 0; i < input.length; i++){
 
     let pattern = /\W/;
