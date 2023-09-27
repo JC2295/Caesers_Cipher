@@ -9,8 +9,8 @@ function rot13(str) {
   
   let alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-  // A > N
-  // B > O
+  // A >> N
+  // B >> O
   
   let alpha13 = "NOPQRSTUVWXYZABCDEFGHIJKLM"
   
