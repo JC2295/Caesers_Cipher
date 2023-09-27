@@ -28,18 +28,14 @@ function rot13(str) {
     else{
       for(let j = 0; j < 26; j++){
   
-        if(input[i] === alpha[j]){
-  
-          output = output.concat(alpha13[j]);
-
+        if(input[i] === alpha[j]){  
           
+          output = output.concat(alpha13[j]);   
           
         }
-        else{
-          
+        else{          
           continue;
-        }
-        
+        }        
       }  
     }
   }
